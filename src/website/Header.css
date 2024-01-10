@@ -1,0 +1,36 @@
+/* Title.css */
+
+.title1 {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Title.css */
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a56ec;
+    white-space: nowrap; /* Ensures that the text stays on a single line */
+    overflow: hidden; /* Handles overflow gracefully */
+    text-overflow: ellipsis; /* Shows ellipsis (...) for overflow */
+    margin-left: 520px;
+    margin-bottom: 70px;
+}
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .middle-paragraph {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #d1300b;
+    margin-top: 40px;
+    font-style: italic;
+  }
+  

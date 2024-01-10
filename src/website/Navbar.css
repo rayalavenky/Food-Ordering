@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f01ca9;    
+    padding: 0px 30px;
+    background-color: aliceblue;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+
+    width: 5%;
+    height: 0%;
+    margin-top: 1%;
+}
+
+.right a {
+    color: #cd2aa1;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 1px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.right a:hover {
+    background-color: #b0c0ca;
+    /* Change the color on hover */
+}
+.right a.active {
+    background-color: #b0c0ca;
+
+}
